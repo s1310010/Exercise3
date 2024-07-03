@@ -1,4 +1,3 @@
-
 import java.util.Random;
 
 public class HeadsOrTails {
@@ -18,5 +17,10 @@ public class HeadsOrTails {
             }
         }
         System.out.println("Heads: " + headsCount + ", Tails: " + tailsCount);
+        if (headsCount > tailsCount) {
+            System.out.println("You won!");
+        } else {
+            System.out.println("You lost!");
+        }
     }
 }
